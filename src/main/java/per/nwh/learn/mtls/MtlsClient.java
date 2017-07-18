@@ -1,14 +1,12 @@
-package jp.co.nri.openapi.sample;
+package per.nwh.learn.mtls;
 
 
 import org.apache.commons.cli.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
 import org.apache.http.conn.ssl.SSLContextBuilder;
 import org.apache.http.conn.ssl.SSLContexts;
-import org.apache.http.conn.ssl.TrustSelfSignedStrategy;
 import org.apache.http.impl.client.HttpClients;
 
 import java.io.ByteArrayOutputStream;
